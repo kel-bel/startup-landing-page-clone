@@ -24,6 +24,7 @@ ul {
 	background-color: #ffffff;
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 
 .main-navbar > .content {
@@ -115,3 +116,36 @@ button:hover {
 	border-color: #cf3d0e;
 	cursor: pointer;
 }
+
+/* Cases Appearance */
+.cases {
+	padding-bottom: 5rem;
+}
+
+.cases .content {
+	text-align: center;
+	margin-top: 7.875rem;
+	color: #1d1e21;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+}	
+
+.case .about li {
+	width: 33.333333%;
+	display: inline-block;
+	/*styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+}
+
+.cases .about h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.563rem;
+	font-weight: 300;
+}
+
