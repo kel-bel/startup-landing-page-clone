@@ -4,6 +4,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	-webkit-font-smoothing: antialiased;
 }
 
 div {
@@ -26,25 +27,34 @@ ul {
 	width: 970px;
 	height: 4.375rem;
 	margin: 0 auto;
+	padding: 0px 0.938rem;
+}
+
+.main-navbar > .logo {
+	height: 4.375rem;
 }
 
 .main-navbar .links {
 	float: right;
 	color: #838994;
-	text-decoration: none;
-	font-size: ;
-	margin-top: ;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	letter-spacing: 0.03em;
+	margin-top: 1.5rem;
 }
 
 .main-navbar .links li {
 	display: inline-block;
+	margin-left: 1.563rem;
+	transition: color 0.5s ease;
 }
 
-.main-navbar .links li.active {
+.main-navbar .links > .active {
 	color: #4c5058;
-	font-weight: bold;
+	font-weight: 500;
 }
 
-.main-navbar .links li.hover {
+.main-navbar .links li:hover {
 	color: #333333;
+	cursor: pointer;
 }
