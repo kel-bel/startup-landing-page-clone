@@ -1,0 +1,50 @@
+/* General Appearance*/
+html, body {
+	background-color: lightgray;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div {
+	border: 1px solid chocolate;
+}
+
+
+/* Navigation */
+ul {
+	list-style: none;
+}
+
+.main-navbar {
+	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+}
+
+.main-navbar > .content {
+	width: 970px;
+	height: 4.375rem;
+	margin: 0 auto;
+}
+
+.main-navbar .links {
+	float: right;
+	color: #838994;
+	text-decoration: none;
+	font-size: ;
+	margin-top: ;
+}
+
+.main-navbar .links li {
+	display: inline-block;
+}
+
+.main-navbar .links li.active {
+	color: #4c5058;
+	font-weight: bold;
+}
+
+.main-navbar .links li.hover {
+	color: #333333;
+}
