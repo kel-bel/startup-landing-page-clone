@@ -5,6 +5,10 @@ html, body {
 	padding: 0;
 	border: 0;
 	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 
 div {
@@ -30,6 +34,7 @@ ul {
 	padding: 0px 0.938rem;
 }
 
+/* Logo Appearance */
 .main-navbar > .logo {
 	height: 4.375rem;
 }
@@ -57,4 +62,40 @@ ul {
 .main-navbar .links li:hover {
 	color: #333333;
 	cursor: pointer;
+}
+
+/* Masthead Appearance */
+.masthead {
+	background-image: url(https://photos-3.dropbox.com/t/2/AABnBrv6WudwWCMs_DEc94fYWIkTydKaXmuDag_iTjOi3w/12/357404183/jpeg/32x32/3/1467759600/0/2/first-background%20copy.jpg/ENSM5ecCGEsgAigC/KW8UftFosyCQF7X9rgCZFn7FVHUwtxuM6S4d-wOzxEc?size_mode=3&size=1280x960);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+
+/*Content Appearance */
+.masthead .content h1, .masthead .content h3 {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: 300;
+}
+
+.masthead .content h1 {
+	font-size: 3.125rem;
+	margin-top: 15.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.masthead .content h3 {
+	font-size: 1.563rem;
+	margin-bottom: 1.5rem;
+}
+
+/*Button Appearance*/
+.masthead .content .button {
+	color: #fff;
+	text-align: center;
+	margin-top: 2rem;
 }
