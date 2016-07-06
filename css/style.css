@@ -120,6 +120,9 @@ button:hover {
 /* Cases Appearance */
 .cases {
 	padding-bottom: 5rem;
+	width: 970px;
+	margin: 0 auto;
+	background-color: #fff;
 }
 
 .cases .content {
@@ -128,24 +131,28 @@ button:hover {
 	color: #1d1e21;
 }
 
-.cases h2 {
+.cases .content h2 {
 	font-size: 2.75rem;
 	font-weight: 300;
 	font-family: 'Roboto', sans-serif;
 }	
 
-.case .about li {
-	width: 33.333333%;
+.cases .devices {
+	width: 33.33333%;
 	display: inline-block;
 	/*styles to assist with debugging */
 	border: 1px solid black;
 	box-sizing: border-box;
 	height: 4em;
+	margin-right: -4px;
+	vertical-align: baseline;
+
 }
 
-.cases .about h3 {
+.cases .devices h3 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.563rem;
-	font-weight: 300;
+	font-weight: 400;
+	text-align: center;
 }
 
